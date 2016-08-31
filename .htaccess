@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteBase /fb/
+RewriteRule ^([a-zA-Z0-9]+)$ /fb/index.php?shortcut=$1
